@@ -69,12 +69,25 @@ body{
 	width:15%; 
 	height:15%; 
 	left: 25%;
-	top: 10%;
+	top: 9%;
   position:absolute;
 }.happy2{
 	width:15%; 
 	height:15%; 
 	left: 60%;
-	top: 10%;
+	top: 9%;
   position:absolute;
+}
+.test{
+	width: 40vw;
+	height: 12vh;
+	font-size: 8vh;
+	position: relative;
+	top: -9vh;
+	margin-top: 4vh;
+}
+.test2{
+	max-width: 23vw;
+	position: relative;
+	left: 30vw;
 }

@@ -52,15 +52,16 @@ body{
 	top: 16vh;
   position:absolute;
 }
-.back{
-    width: 8vw;
-	left: 80vw;
-	top: 75vh;
-  position:absolute;
-}
 .steam{
     width: 8vw;
 	left: 80vw;
 	top: 16vh;
   position:absolute;
+}
+.exit{
+    width: 3%;
+    height: 4.4%;
+    top: 4.5vh;
+    left: 88vw;
+    position: absolute;
 }
