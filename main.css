@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png);
+    background-size: 100vw 100vh;
+    background-position: center;
+    image-rendering: pixelated;
+    font-family: "Caveat", cursive;
+    background-repeat: no-repeat;
+}
+#headder{
+	position: relative;
+	color: #FFF;
+	text-shadow: 5px 3px #000;
+	font-size:12vh;
+	margin: 0;
+	margin-bottom: 12vh;
+	margin-top: 4vh;
+}
+
+#skrung{
+	text-align: center;
+	font-family: "Indie Flower", cursive;
+	text-shadow: 8px 0px;
+}
+.aa{
+	text-decoration: none;
+}
+.button{
+	background-color: rgb(140, 119, 143);
+	max-width: 37vw;
+	margin-left: 32vw;
+	text-align: center;
+	font-size: 6vh;
+	text-shadow: 0px 0px #000;
+	color: #dde0b0;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+.maxwell{
+	width:10%; 
+	height:10%; 
+	left: 5px;
+	top: 10px;
+  position:absolute;
+}
+.wobble{
+	width:10%; 
+	height:15%; 
+	left: 90%;
+	top: 85%;
+  position:absolute;
+}
+.leekspin{
+	width:15%; 
+	height:15%; 
+	left: 50%;
+	top: 85%;
+  position:absolute;
+}
+.popcat{
+	width:15%; 
+	height:15%; 
+	left: 8%;
+	top: 85%;
+  position:absolute;
+}
+.happy1{
+	width:15%; 
+	height:15%; 
+	left: 25%;
+	top: 10%;
+  position:absolute;
+}.happy2{
+	width:15%; 
+	height:15%; 
+	left: 60%;
+	top: 10%;
+  position:absolute;
+}
