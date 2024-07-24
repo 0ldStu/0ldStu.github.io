@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png);
+    background-size: 100vw 100vh;
+    background-position: center;
+    image-rendering: pixelated;
+    font-family: "Caveat", cursive;
+    background-repeat: no-repeat;
+}
+#headder{
+	position: relative;
+	color: #FFF;
+	text-shadow: 5px 3px #000;
+	font-size:12vh;
+	margin: 0;
+	margin-bottom: 12vh;
+	margin-top: 4vh;
+	text-align: center;
+
+}
+.abouttext{
+    position: absolute;
+    top: 13vh;
+    left: 25vw;
+    font-size: 1.7vw;
+}
+.happy1{
+	width:85%; 
+	height:12%; 
+	left: 7vw;
+	top: 3vh;
+  position:absolute;
+}
+.happy2{
+    padding-top: 8vh;
+	width:85%; 
+	height:73%; 
+	left: 7vw;
+	top: 7vh;
+  position:absolute;
+}
+.happy3{
+    padding-top: 80vh;
+	width:85.2%; 
+	height:10%; 
+	left: 7vw;
+	top: 7vh;
+  position:absolute;
+}
+.player{
+    width: 15vw;
+	left: 8vw;
+	top: 16vh;
+  position:absolute;
+}
+.back{
+    width: 8vw;
+	left: 80vw;
+	top: 75vh;
+  position:absolute;
+}
+.steam{
+    width: 8vw;
+	left: 80vw;
+	top: 16vh;
+  position:absolute;
+}
