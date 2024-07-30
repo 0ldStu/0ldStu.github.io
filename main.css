@@ -15,6 +15,7 @@ body{
 	margin-bottom: 12vh;
 	margin-top: 4vh;
 	text-align: center;
+	font-weight: bolder;
 
 }
 
@@ -22,6 +23,7 @@ body{
 	text-align: center;
 	font-family: "Indie Flower", cursive;
 	text-shadow: 8px 0px;
+	font-weight: bolder;
 }
 .aa{
 	text-decoration: none;
@@ -78,14 +80,17 @@ body{
 	top: 9%;
   position:absolute;
 }
-.test{
+.borpen{
 	width: 40vw;
 	height: 12vh;
 	font-size: 8vh;
 	position: relative;
 	top: -9vh;
 	margin-top: 4vh;
+	border-radius: 5px;
 }
+
+
 .test2{
 	max-width: 23vw;
 	position: relative;

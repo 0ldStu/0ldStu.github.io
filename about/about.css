@@ -5,6 +5,7 @@ body{
     image-rendering: pixelated;
     font-family: "Caveat", cursive;
     background-repeat: no-repeat;
+    font-weight: bolder;
 }
 #headder{
 	position: relative;
@@ -53,8 +54,8 @@ body{
   position:absolute;
 }
 .steam{
-    width: 8vw;
-	left: 80vw;
+    width: 6vw;
+	left: 78vw;
 	top: 16vh;
   position:absolute;
 }

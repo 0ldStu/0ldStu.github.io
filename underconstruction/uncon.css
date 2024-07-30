@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png);
+    background-size: 100vw 100vh;
+    background-position: center;
+    image-rendering: pixelated;
+    font-family: "Caveat", cursive;
+    background-repeat: no-repeat;
+}
+#head{
+    position: relative;
+    color: #fff;
+    text-shadow: 5px 3px #000;
+    font-size: 12vh;
+    margin: 0;
+    margin-bottom: 12vh;
+    margin-top: 4vh;
+    text-align: center;
+}
+#con1{
+position: absolute;
+width: 8vw;
+left: 21vw;
+top: 19vh;
+}
+#con2{
+position: absolute;
+width: 8vw;
+left: 71vw;
+top: 19vh;
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png);
+    background-size: 100vw 100vh;
+    background-position: center;
+    image-rendering: pixelated;
+    font-family: "Caveat", cursive;
+    background-repeat: no-repeat;
+}
+#headder{
+	position: relative;
+	color: #FFF;
+	text-shadow: 5px 3px #000;
+	font-size:10vh;
+	margin: 0;
+	margin-bottom: 12vh;
+	margin-top: 4vh;
+	text-align: center;
+	font-weight: bolder;
+
+}
+.column {
+    color: beige;
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: -9vh;
+    float: left;
+    width: 25%;
+    height: 73vh;
+    background-color: rgba(79, 30, 154, 0.722);
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .topper{
+    text-align: center;
+    font-size: 2.5vh;
+    background-color: rgb(118, 69, 149);
+    color: beige;
+  }
+  .imgag{
+    width: 5vw;
+    position: absolute;
+    top: 5vh;
+    left: 88vw;
+  }
