@@ -1,8 +1,67 @@
 .pedro{
     position: absolute;
-    left: 41vw;
-    top: 31vh;
+    z-index: 2;
+    width: 281px;
+    height: 281px;
+    background-color: aqua;
 }
 #body{
     background-color: black;
+}
+.title{
+    position: absolute;
+    color: antiquewhite;
+    text-shadow: 2px 2px #558ABB;
+    font-size: 3vw;
+    bottom: 0;
+    left: 26vw;
+    
+}
+.redro{
+    text-shadow: red -2px -2px;
+    position: absolute;
+    color: antiquewhite;
+    font-size: 3vw;
+    bottom: 0;
+    left: 26vw;
+}
+.greero{
+    text-shadow: green -2px 2px;
+    position: absolute;
+    color: antiquewhite;
+    font-size: 3vw;
+    bottom: 0;
+    left: 26vw;
+    bottom: 0;
+}
+#audio{
+    top: 0;
+    
+}
+#ping{
+    position: absolute;
+    left: 41vw;
+    top: 20vh;
+    width: 281px;
+    height: 281px;
+
+    text-align: center;
+    background-image: url(https://c.tenor.com/AqyLIJ48wQMAAAAd/tenor.gif);
+    background-repeat: no-repeat;
+}
+#page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #120913;
+    width: 100VW;
+    height: 100vh;
+    z-index: 1;
+    text-align: center;
+    font-size: 4vh;
+}
+.para{
+    padding-top: 25vh;
+    font-size: 9vw;
+    color: wheat;
 }

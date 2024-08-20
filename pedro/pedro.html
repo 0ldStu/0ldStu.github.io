@@ -2,9 +2,31 @@
  <head>
   <link rel="stylesheet" href="pedro.css">
  </head>
+ 
  <body id="body">
-  
-  <img class="pedro" src="https://c.tenor.com/AqyLIJ48wQMAAAAd/tenor.gif">
+    <div id="page" onClick="toggleMute()"><p class="para">Click To Groove</p></div>
+
+    <p class="title">Pedro · Jaxomy · Agatino Romero · Raffaella Carrà</p>
+  <p class="redro">Pedro · Jaxomy · Agatino Romero · Raffaella Carrà</p>
+  <p class="greero">Pedro · Jaxomy · Agatino Romero · Raffaella Carrà</p>
+    
+
+
+  <div id="ping"  style="visibility: visible;">
+
+</div>
+
 
  </body>
+
+<script>
+function toggleMute() {
+    const play = document.getElementById("page");
+    play.style.visibility = "hidden";
+
+    let beat = new Audio('../Assets/Pedro.mp3');
+    beat.play();
+    beat.volume = .2;
+ }</script>
+
 </html>
