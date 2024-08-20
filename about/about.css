@@ -75,3 +75,9 @@ body{
   position: absolute;
   z-index: 1;
 }
+.abouttext2{
+  position: absolute;
+  top: 45vh;
+  left: 8.5vw;
+  font-size: 1.7vw;
+}
