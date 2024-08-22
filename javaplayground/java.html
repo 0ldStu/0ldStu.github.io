@@ -1,0 +1,52 @@
+<html>
+ <head>
+  <link rel="stylesheet" href="java.css">
+ </head>
+ <body>
+  <div onclick="addElement()" id="wowzers">wowzers</div>
+  <div id="pog"></div>
+ </body>
+
+<script>
+
+function addElement(){
+
+    //parse data from google sheet
+
+    //break it up into chunks that i can use to create the displays
+
+    // wrap in an iteration loop, for every display unit, increase id by 1
+
+    //create the base div
+    const newDiv = document.createElement("div");
+    //add class and id
+    newDiv.setAttribute("class","bg");
+    newDiv.setAttribute("id","div1");    
+
+    //create the content elements
+    const descript = document.createElement("p");
+    descript.setAttribute("class","desc");
+    descript.textContent = "Placeholder Text, Lorum Ipsum what not";
+
+
+    const img = document.createElement("img");
+    img.src = "https://web.archive.org/web/20060429062713/http://geocities.com/mercycatholiccollegehsie/images/manilafolderopen.gif";
+    img.setAttribute("class","pfp");
+
+
+    //add content to the div
+    newDiv.appendChild(img);
+    newDiv.appendChild(descript);
+
+
+    // add element and its content to the page
+    const bottomDiv = document.getElementById("pog");
+    document.body.insertBefore(newDiv, bottomDiv);
+    
+
+}
+
+</script>
+
+
+</html>

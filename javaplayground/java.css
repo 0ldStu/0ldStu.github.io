@@ -1,0 +1,23 @@
+.bg{
+    background-color: aquamarine;
+    width: 33%;
+    height: 20%;
+    margin: 20px;
+    color: brown;
+
+    container-name: bg;
+    container-type: inline-size;
+}
+@container (min-width: 200px){
+    .bg desc {
+        font-size: 200vw;
+    }
+}
+
+.desc{
+    color: brown;
+}
+.pfp{
+    margin-top: 2vh;
+
+}

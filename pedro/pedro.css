@@ -10,29 +10,14 @@
 }
 .title{
     position: absolute;
-    color: antiquewhite;
-    text-shadow: 2px 2px #558ABB;
+    color: rgba(250, 235, 215, 0.511);
+    text-shadow: 
+        2px 2px 2px #558ABB,
+        -2px -2px 2px red,
+        -2px 2px 2px green;
     font-size: 3vw;
     bottom: 0;
     left: 26vw;
-    
-}
-.redro{
-    text-shadow: red -2px -2px;
-    position: absolute;
-    color: antiquewhite;
-    font-size: 3vw;
-    bottom: 0;
-    left: 26vw;
-}
-.greero{
-    text-shadow: green -2px 2px;
-    position: absolute;
-    color: antiquewhite;
-    font-size: 3vw;
-    bottom: 0;
-    left: 26vw;
-    bottom: 0;
 }
 #audio{
     top: 0;
