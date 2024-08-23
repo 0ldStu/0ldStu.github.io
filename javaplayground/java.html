@@ -1,10 +1,13 @@
-<html>
+<!doctype html>
  <head>
   <link rel="stylesheet" href="java.css">
  </head>
  <body>
   <div onclick="addElement()" id="wowzers">wowzers</div>
-  <div id="pog"></div>
+  <!-- wrap created Divs in a Div for centering, needs more padding on the left for all created divs.-->
+
+  <!-- pog is the footer-->
+  <div id="foot"> footer, copyright Skrungy</div>
  </body>
 
 <script>
@@ -21,26 +24,34 @@ function addElement(){
     const newDiv = document.createElement("div");
     //add class and id
     newDiv.setAttribute("class","bg");
-    newDiv.setAttribute("id","div1");    
+
+    const linkwrap = document.createElement("a");
+    linkwrap.setAttribute("class","goob");
+    linkwrap.href = "www.google.com";
 
     //create the content elements
-    const descript = document.createElement("p");
-    descript.setAttribute("class","desc");
-    descript.textContent = "Placeholder Text, Lorum Ipsum what not";
-
+    const maintitle = document.createElement("p");
+    maintitle.setAttribute("class","title");
+    maintitle.textContent = "Placeholder Text, Epic URL title";
 
     const img = document.createElement("img");
     img.src = "https://web.archive.org/web/20060429062713/http://geocities.com/mercycatholiccollegehsie/images/manilafolderopen.gif";
     img.setAttribute("class","pfp");
 
+    const description = document.createElement("p");
+    description.setAttribute("class","desc")
+    description.textContent = "Placeholder text, Epic descriptionEpic descriptionEpic descriptionEpic descriptionEpic descriptionEpic descriptionEpic descriptionEpic descriptionEpic descriptionEpic descriptionEpic descriptionEpic description cool beans"
 
     //add content to the div
-    newDiv.appendChild(img);
-    newDiv.appendChild(descript);
+    linkwrap.appendChild(img);
+    newDiv.appendChild(linkwrap);
+
+    newDiv.appendChild(maintitle);
+    newDiv.appendChild(description);
 
 
-    // add element and its content to the page
-    const bottomDiv = document.getElementById("pog");
+    // add element and its content to the page above the footer
+    const bottomDiv = document.getElementById("foot");
     document.body.insertBefore(newDiv, bottomDiv);
     
 

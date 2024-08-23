@@ -1,23 +1,47 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+}
 .bg{
-    background-color: aquamarine;
-    width: 33%;
+    background-color: rgb(108, 177, 154);
+    width: 30%;
     height: 20%;
     margin: 20px;
     color: brown;
-
-    container-name: bg;
-    container-type: inline-size;
-}
-@container (min-width: 200px){
-    .bg desc {
-        font-size: 200vw;
+    display: inline-block;
+    border-radius: 15px;
+    border: 2mm ridge rgba(109, 68, 93, 0.6);
     }
-}
 
-.desc{
+
+.title{
     color: brown;
+    text-align: center;
+    position: inherit;
+    top: 0;
+    right: 0;
 }
 .pfp{
-    margin-top: 2vh;
-
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 65%;
+    float: left;
+}
+.goob{
+    position: inherit;
+    left: 0;
+    top: 0;
+}
+.desc{
+    color: brown;
+    text-align: center;
+    position: inherit;
+    top: 0;
+    right: 0;
+    padding-right: 2%;
+}
+.foot{
+    color:wheat;
 }
